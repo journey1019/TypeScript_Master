@@ -13,7 +13,7 @@
     type Num = number;
     // 원시타입 뿐만아니라
 
-    // 함수도 새로운 타입으로 정의 가능
+    // Object타입도 새로운 타입으로 정의 가능
     type Student = {
         name: string; //string 형태의 name 데이터와
         age: number; //number 형태의 age데이터
@@ -28,9 +28,12 @@
      * String Literal Types
      */
 
+    // 문자열도 타입으로 지정 가능
     type Name = 'name';
     let annaName: Name;
     annaName = 'name'; // 'd' 불가능
     type JSON ='json';
     const json: JSON = 'json';
+
+
 }
